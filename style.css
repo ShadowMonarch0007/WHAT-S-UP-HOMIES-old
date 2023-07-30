@@ -1,5 +1,7 @@
 #home{
     background-image: url("beautiful--sunset-40263.jpg");
+    background-size: 100%;
     color: white;
-    font-family: cursive;
+    font-family: Verdana;
+    
 }
