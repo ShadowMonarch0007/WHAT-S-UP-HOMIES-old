@@ -1,10 +1,17 @@
 html{
     scroll-behavior: smooth;
-}
+    background-color: white;
+    background-size: 100%;
+    }
 #home{
     background-image: url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=900&t=st=1690723150~exp=1690723750~hmac=06bc98a6fa244d5892fc60cdd7a8dffe2143ab1ed22f11a61709fca3913fb06cg");
     background-size: 100%;
     color: white;
     font-family: Verdana;
-    
+}
+#about{
+    background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=996&t=st=1690786416~exp=1690787016~hmac=c92c246627f611ab3069dbde40f3955fc36c465829374fc9deee187ce835cebe");
+    background-size: 100%;
+    color: white;
+    font-family: Verdana;
 }
