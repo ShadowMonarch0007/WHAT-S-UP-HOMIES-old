@@ -1,20 +1,42 @@
 html{
     scroll-behavior: smooth;
-    background-color: white;
-    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");   
     font-family: Verdana;
     }
 .logo img {
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 100px;
-        object-fit: initial;
+    object-fit: initial;
     }
+.navbar{
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: 100%;
+    width: 1503.2px;
+    height: 125px;
+}
 .navlist{
     display: flex;
     align-items: center;
     size: 100%;
-    position: sticky;
     }
+.navlist button{
+    border-color: transparent;
+    background-color: transparent;
+    }
+.navlist a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    border-radius: 10px;
+}
+.navlist li a:hover {
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all ease 0.5s;
+    background-color: #f55c5c;
+    cursor: pointer;
+}
 #home{
     background-image: url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=900&t=st=1690723150~exp=1690723750~hmac=06bc98a6fa244d5892fc60cdd7a8dffe2143ab1ed22f11a61709fca3913fb06cg");
     background-size: 100%;
@@ -34,7 +56,7 @@ html{
     background-image: url("https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
     background-size: 100%;
     height: 999px;
-    width: 1500px;
+    width: 1503.2px;
 }
 #connect{
     background-image: url("https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
