@@ -9,6 +9,12 @@ html{
         border-radius: 100px;
         object-fit: initial;
     }
+.navlist{
+    display: flex;
+    align-items: center;
+    size: 100%;
+    position: sticky;
+    }
 #home{
     background-image: url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=900&t=st=1690723150~exp=1690723750~hmac=06bc98a6fa244d5892fc60cdd7a8dffe2143ab1ed22f11a61709fca3913fb06cg");
     background-size: 100%;
@@ -31,9 +37,52 @@ html{
     width: 1500px;
 }
 #connect{
-    background-image: url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
     background-size: 100%;
     color: white;
+    display: flexbox;
+    #name{
+        width: 800px;
+        height: 20px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #email{
+        width: 800px;
+        height: 20px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #number{
+        width: 800px;
+        height: 20px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #message{
+        width: 800px;
+        height: 400px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #submit{
+        width: 100px;
+        height: 40px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    #reset{
+        width: 100px;
+        height: 40px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 20px;
+    }
 }
 #contact{
     background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=412&q=80");
@@ -41,7 +90,7 @@ html{
 }
 .footer{
     background-color: black;
-    height: 30px;
+    height: 50px;
     color: white;
     font-size: 25px;
 }
