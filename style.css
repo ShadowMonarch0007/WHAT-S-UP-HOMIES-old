@@ -4,9 +4,6 @@ html{
     background-size: 100%;
     font-family: Verdana;
     }
-.logo {
-        padding: 10px 30px;
-    }
 .logo img {
         border: 2px solid rgb(255, 255, 255);
         border-radius: 100px;
