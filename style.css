@@ -90,29 +90,29 @@ html{
     color: white;
     display: flexbox;
     #name{
-        width: 800px;
+        width: 400px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
     #email{
-        width: 800px;
+        width: 400px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
     #number{
-        width: 800px;
+        width: 400px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
     #message{
-        width: 800px;
-        height: 400px;
+        width: 400px;
+        height: 200px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
