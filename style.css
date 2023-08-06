@@ -32,7 +32,7 @@ html{
     }
 .navlist a{
     text-decoration: none;
-    font-size: 35px;
+    font-size: large;
     color: black;
     padding: 2px 20px;
     border-radius: 10px;
@@ -44,15 +44,34 @@ html{
     background-color: white;
     cursor: pointer;
 }
+.three_dots{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 20px;
+}
+.dots {
+    width: 4px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
 #home{
     background-image: url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=900&t=st=1690723150~exp=1690723750~hmac=06bc98a6fa244d5892fc60cdd7a8dffe2143ab1ed22f11a61709fca3913fb06cg");
     background-size: 100%;
     color: white;
 }
+.know_more{
+    border-style: solid;
+    border-color: bisque;
+    background-color: transparent;
+    text-decoration: none;
+    color: bisque;
+    font-size: xx-large;
+}
 #about{
     background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=996&t=st=1690786416~exp=1690787016~hmac=c92c246627f611ab3069dbde40f3955fc36c465829374fc9deee187ce835cebe");
     background-size: 100%;
-    height: 900px;
     color: white;
 }
 #skills{
@@ -63,7 +82,6 @@ html{
 #experience{
     background-image: url("https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
     background-size: 100%;
-    height: 999px;
     width: 100%;
 }
 #connect{
