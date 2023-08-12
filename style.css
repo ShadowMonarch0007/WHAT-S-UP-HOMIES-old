@@ -67,6 +67,8 @@ html{
     border-style: solid;
     border-color: bisque;
     background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
     text-decoration: none;
     color: bisque;
     font-size: xx-large;
