@@ -63,6 +63,11 @@ html{
     background-position: center;
     color: white;
 }
+#pfp{
+    height: 250px; 
+    width: 250px;
+    border-radius: 125px;
+}
 .know_more{
     border-style: solid;
     border-color: bisque;
@@ -74,11 +79,11 @@ html{
     font-size: xx-large;
 }
 #about{
-    background: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=996&t=st=1690786416~exp=1690787016~hmac=c92c246627f611ab3069dbde40f3955fc36c465829374fc9deee187ce835cebe");
+    background: url("https://images.unsplash.com/photo-1522836924445-4478bdeb860c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
 }
 #skills{
     background: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
