@@ -10,6 +10,11 @@ html{
 .logo img {
     object-fit: initial;
     }
+/* .logo img:hover{
+    transform: scale(2);
+    border-radius: 50%;
+    margin: 50% 50%;
+} */
 .navbar{
     justify-content: space-between;
     position: fixed;
@@ -26,6 +31,7 @@ html{
     }
 .navlist li{
     display: inline;
+    align-items: right;
     list-style: none;
     border-color: transparent;
     background-color: transparent;
@@ -76,6 +82,10 @@ html{
     width: 250px;
     border-radius: 125px;
 }
+#pfp:hover{
+    transform: scale(2.5);
+    border-radius: 50%;
+}
 .know_more{
     border-style: solid;
     border-color: bisque;
@@ -102,6 +112,8 @@ html{
     color: white;
 }
 #skills button{
+    height: 150px;
+    width: 150px;
     border-color: transparent;
     background-color: transparent;
     justify-content: center;
