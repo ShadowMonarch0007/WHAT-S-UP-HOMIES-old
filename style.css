@@ -83,7 +83,7 @@ html{
     border-radius: 125px;
 }
 #pfp:hover{
-    transform: scale(2.5);
+    transform: scale(2);
     border-radius: 50%;
 }
 .know_more{
