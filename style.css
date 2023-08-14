@@ -198,6 +198,9 @@ html{
     text-align: center;
     margin: 40px;
 }
+#contact_page{
+    margin-left: 15%;
+}
 .footer{
     background-color: black;
     height: 50px;
