@@ -67,6 +67,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: cursive;
     color: white;
 }
 #main_heading{
@@ -77,6 +78,9 @@ html{
     -webkit-background-clip: text;
     color: transparent; */
 }
+/* .box_home{
+    display: flex;
+} */
 #pfp{
     height: 250px; 
     width: 250px;
