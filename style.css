@@ -5,7 +5,7 @@
 html{
     scroll-behavior: smooth;
     background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");   
-    font-family: Verdana;
+    font-family: Bad Script;
     }
 .logo img {
     object-fit: initial;
@@ -67,7 +67,6 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: cursive;
     color: white;
 }
 #main_heading{
