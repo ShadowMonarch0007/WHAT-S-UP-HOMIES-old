@@ -89,6 +89,7 @@ html{
 #pfp:hover{
     transform: scale(2);
     border-radius: 50%;
+    transition: 1.5s;
 }
 .know_more{
     border-style: solid;
