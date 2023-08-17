@@ -28,6 +28,7 @@ html{
     display: flex;
     align-items: center;
     size: 100%;
+    font-weight: bold;
     }
 .navlist li{
     display: inline;
