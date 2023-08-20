@@ -9,9 +9,9 @@ html {
     font-family: Bad Script;
 }
 
-body {
-    background-color: black;
-}
+/* body {
+    background: url("https://images.unsplash.com/photo-1649182325585-27a7d33563b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+} */
 
 #certificate_quiz {
     display: flex;
@@ -26,6 +26,13 @@ body {
     overflow-x: hidden;
     height: 100%;
     width: 2
+}
+#bg{
+    background: url("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 22%;
 }
 
 .quiz_certificate {
@@ -63,11 +70,16 @@ body {
 #sc5 {
     display: none;
 }
-
-#certificate_display {
+#certificate_display{
     margin-left: 22%;
     width: 78%;
     height: 100%;
+    background: url("https://images.unsplash.com/photo-1629946832022-c327f74956e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 717px;
+    width: -78%;
+    background-position: center;
 }
 
 .gov_certificate {
