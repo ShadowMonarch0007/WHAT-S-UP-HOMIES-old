@@ -1,21 +1,24 @@
 * {
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
-    background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");   
+    background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
     font-family: Bad Script;
-    }
+}
+
 .logo img {
     object-fit: initial;
-    }
+}
+
 /* .logo img:hover{
     transform: scale(2);
     border-radius: 50%;
     margin: 50% 50%;
 } */
-.navbar{
+.navbar {
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -24,26 +27,30 @@ html{
     width: 100%;
     height: 75px;
 }
-.navlist{
+
+.navlist {
     display: flex;
     align-items: center;
     size: 100%;
     font-weight: bold;
-    }
-.navlist li{
+}
+
+.navlist li {
     display: inline;
     justify-items: end;
     list-style: none;
     border-color: transparent;
     background-color: transparent;
-    }
-.navlist a{
+}
+
+.navlist a {
     text-decoration: none;
     font-size: large;
     color: black;
     padding: 2px 20px;
     border-radius: 10px;
 }
+
 .navlist li a:hover {
     text-decoration: none;
     font-size: 1.5rem;
@@ -51,26 +58,30 @@ html{
     background-color: white;
     cursor: pointer;
 }
-.three_dots{
+
+.three_dots {
     position: absolute;
     cursor: pointer;
     right: 2%;
     top: 20px;
 }
+
 .dots {
     width: 4px;
     background-color: white;
     height: 4px;
     margin: 5px 5px;
 }
-#home{
+
+#home {
     background: url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=900&t=st=1690723150~exp=1690723750~hmac=06bc98a6fa244d5892fc60cdd7a8dffe2143ab1ed22f11a61709fca3913fb06cg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
 }
-#main_heading{
+
+#main_heading {
     font-size: 70px;
     /* background: url("https://images.unsplash.com/photo-1691481593965-4a75f1500ac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
@@ -78,20 +89,23 @@ html{
     -webkit-background-clip: text;
     color: transparent; */
 }
+
 /* .box_home{
     display: flex;
 } */
-#pfp{
-    height: 250px; 
+#pfp {
+    height: 250px;
     width: 250px;
     border-radius: 125px;
 }
-#pfp:hover{
+
+#pfp:hover {
     transform: scale(2);
     border-radius: 50%;
     transition: 1.5s;
 }
-.know_more{
+
+.know_more {
     border-style: solid;
     border-color: bisque;
     background-color: transparent;
@@ -101,14 +115,16 @@ html{
     color: bisque;
     font-size: xx-large;
 }
-#about{
+
+#about {
     background: url("https://images.unsplash.com/photo-1690835375429-96c1b4e56317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
 }
-#skills{
+
+#skills {
     background: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +132,8 @@ html{
     display: flexbox;
     color: white;
 }
-#skills button{
+
+#skills button {
     height: 150px;
     width: 150px;
     border-color: transparent;
@@ -126,61 +143,70 @@ html{
     text-align: center;
     margin: 40px;
 }
-.skill_content{
+
+.skill_content {
     font-size: large;
     text-align: center;
     color: white;
 }
-#experience{
+
+#experience {
     background: url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
 }
-#connect{
+
+#connect {
     background: url("https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
     display: flexbox;
-    #name{
+
+    #name {
         width: 300px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
-    #email{
+
+    #email {
         width: 300px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
-    #number{
+
+    #number {
         width: 300px;
         height: 20px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
-    #message{
+
+    #message {
         width: 300px;
         height: 200px;
         margin: 5px;
         padding: 10px;
         font-size: 15px;
     }
-    #submit{
+
+    #submit {
         width: 100px;
         height: 40px;
         margin: 5px;
         padding: 10px;
         font-size: 20px;
     }
-    #reset{
+
+    #reset {
         width: 100px;
         height: 40px;
         margin: 5px;
@@ -188,14 +214,16 @@ html{
         font-size: 20px;
     }
 }
-#contact{
+
+#contact {
     background: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=412&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: space-between;
 }
-#contact button{
+
+#contact button {
     border-color: transparent;
     background-color: transparent;
     justify-content: center;
@@ -203,10 +231,12 @@ html{
     text-align: center;
     margin: 40px;
 }
-#contact_page{
+
+#contact_page {
     /* margin-left: 15%; */
 }
-.footer{
+
+.footer {
     background-color: black;
     height: 50px;
     color: white;
