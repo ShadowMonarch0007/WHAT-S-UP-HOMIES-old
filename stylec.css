@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+    font-family: Bad Script;
+}
+.quiz{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flexbox;
+    justify-content: center;
+}
+.quiz button{
+    border-color: transparent;
+    background-color: transparent;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+    }
+.quiz_certificate{
+    text-decoration: none;
+    color: beige;
+    font-weight: 50;
+    font-size: 1rem;
+}
