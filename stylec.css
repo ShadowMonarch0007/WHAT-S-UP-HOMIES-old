@@ -1,20 +1,24 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
-    
+
     font-family: Bad Script;
 }
-body{
+
+body {
     background-color: black;
 }
-#certificate_quiz{
+
+#certificate_quiz {
     display: flex;
     flex-direction: column;
 }
-.quiz{
+
+.quiz {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -23,10 +27,11 @@ body{
     height: 100%;
     width: 22%;
     /* flex-direction: row; */
-    
+
     /* display: flexbox; */
     /* justify-content: center; */
 }
+
 /* .quiz div{
     border-color: transparent;
     background-color: transparent;
@@ -34,81 +39,101 @@ body{
     text-align: center;
     margin: 20px;
     } */
-.quiz_certificate{
+.quiz_certificate {
     /* position: absolute; */
-   
+
 }
-#f1,#f2,#f3,#f4,#f5{
+
+#f1,
+#f2,
+#f3,
+#f4,
+#f5 {
     display: flex;
     flex-direction: column;
-    
+
     margin: 5px 5px 9px 15px;
     /* position: absolute; */
     height: 205px;
     width: 290px;
 }
-.heading{
+
+.heading {
     position: absolute;
-    z-index: 6;color: black;
+    z-index: 6;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
     font-weight: 100;
-    margin:88.75px  ;
+    margin: 88.75px;
 
     /* margin: 12px 12px 12px 12px; */
 }
-#sc1,#sc2,#sc3,#sc4,#sc5{
+
+#sc1,
+#sc2,
+#sc3,
+#sc4,
+#sc5 {
     display: none;
 }
+
 /* .quiz_certificate:hover{
      filter: blur(3.5px);
 } */
-#certificate_display{
+#certificate_display {
     /* position: relative; */
     margin-left: 22%;
     background: red;
     width: 78%;
     height: 100%;
 }
+
 /* .gov_certificate{
     position:absolute; 
      bottom: -50%; 
      left: 50%; 
     margin: auto;
 } */
-.gov_certificate{
+.gov_certificate {
     margin: 50px 50px 50px 180px;
 }
-#c_1{
+
+#c_1 {
     position: absolute;
     z-index: 5;
     height: 403px;
     width: 570px;
 }
-#c_2{
+
+#c_2 {
     position: absolute;
     z-index: 4;
     height: 403px;
     width: 570px;
 }
-#c_3{
+
+#c_3 {
     position: absolute;
     z-index: 3;
     height: 403px;
     width: 570px;
 }
-#c_4{
+
+#c_4 {
     position: absolute;
     z-index: 2;
     height: 403px;
     width: 570px;
 }
-#c_5{
+
+#c_5 {
     position: absolute;
     z-index: 1;
     height: 403px;
     width: 570px;
 }
+
 /* ::-webkit-scrollbar{
     height: 0px;
 }
