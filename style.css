@@ -79,6 +79,7 @@ html {
     background-size: cover;
     background-position: center;
     color: white;
+    padding: 20px;
 }
 
 #main_heading {
@@ -99,12 +100,32 @@ html {
     border-radius: 125px;
 }
 
-#pfp:hover {
-    transform: scale(2);
-    border-radius: 50%;
-    transition: 1.5s;
-}
 
+#pfp:hover {
+    transform: translateX(220%) translateY(50%) scale(2);
+    border-radius: 50%;
+    transition: 2s;
+}
+.fst{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pfp_fst{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.blog_fst{
+    margin: 40px 80px;
+}
+.op{
+    margin-left: 200px;
+}
+.dtails{
+    margin: 0px 100px;
+    font-size: larger;
+}
 .know_more {
     border-style: solid;
     border-color: bisque;
