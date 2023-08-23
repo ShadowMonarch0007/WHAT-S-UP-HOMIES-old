@@ -34,10 +34,12 @@ html {
     size: 100%;
     font-weight: bold;
 }
-
+.options{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 40%; */
+}
 .navlist li {
-    display: inline;
-    justify-items: end;
     list-style: none;
     border-color: transparent;
     background-color: transparent;
@@ -143,8 +145,19 @@ html {
     background-size: cover;
     background-position: center;
     color: white;
+    padding: 100px 40px;
 }
-
+.edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.edutails{
+    margin: 15px 10px;
+}
+.edupic{
+    margin-right: 30px;
+}
 #skills {
     background: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
     background-repeat: no-repeat;
