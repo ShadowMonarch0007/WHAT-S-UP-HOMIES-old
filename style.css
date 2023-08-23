@@ -81,7 +81,7 @@ html {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 20px;
+    padding: 2.5%;
 }
 
 #main_heading {
@@ -145,7 +145,10 @@ html {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 40px;
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
 }
 .edu{
     display: flex;
@@ -153,10 +156,44 @@ html {
     justify-content: space-evenly;
 }
 .edutails{
-    margin: 15px 10px;
+    margin: 20px 10px;
 }
 .edupic{
     margin-right: 30px;
+}
+.instilogo{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3% 20%;
+}
+.ilg{
+    margin: 0% 5%;
+}
+.hby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.hbytails{
+    margin: 10px 10px;
+}
+.hbypic{
+    margin-left: 30px;
+}
+.hlv{
+    font-size: 30px;
+}
+.hbylogo{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3% 7%;
+}
+.hlg{
+    margin: 0% 4%;
 }
 #skills {
     background: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
@@ -165,6 +202,7 @@ html {
     background-position: center;
     display: flexbox;
     color: white;
+    padding: 5% 0%;
 }
 
 #skills button {
