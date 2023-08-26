@@ -5,17 +5,20 @@
 
 html {
     scroll-behavior: smooth;
-
     font-family: Bad Script;
 }
 
-/* body {
-    background: url("https://images.unsplash.com/photo-1649182325585-27a7d33563b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
-} */
+body {
+    background: url("./img/cbg.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
 
 #certificate_quiz {
     display: flex;
     flex-direction: column;
+    
+    background-position: center;
 }
 
 .quiz {
@@ -28,11 +31,8 @@ html {
     width: 2
 }
 #bg{
-    background: url("https://images.unsplash.com/photo-1605478264999-8d1cd66e9c78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background: url("./img/bg.png");
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 22%;
 }
 
 .quiz_certificate {
@@ -80,17 +80,13 @@ html {
     margin-left: 22%;
     width: 78%;
     height: 100%;
-    background: url("https://images.unsplash.com/photo-1604263957485-ef9988a9827e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-    background-repeat: no-repeat;
-    height: 717px;
-    width: 78%;
-    background-position: center;
+    
 }
 #cd{
     
 }
 .gov_certificate {
-    margin: 3% 12%;
+    margin: 4rem 10rem;
 }
 
 #c_1 {

@@ -162,6 +162,9 @@ html {
 .edupic{
     margin-right: 3%;
 }
+.elg{
+    border-radius: 10%;
+}
 .instilogo{
     display: flexbox;
     flex-direction: row;
@@ -170,6 +173,7 @@ html {
 }
 .ilg{
     margin: 0% 5%;
+    border-radius: 25%;
 }
 .hby{
     display: flex;
@@ -194,6 +198,8 @@ html {
 }
 .hlg{
     margin: 0% 4%;
+    border-radius: 25%;
+
 }
 #skills {
     background: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
@@ -247,6 +253,9 @@ padding: 0% 30%;
 .expcon{
     font-size: 300%;
     padding: 8% 0%;
+}
+.expimg{
+    border-radius: 10%;
 }
 #connect {
     background: url("https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
@@ -319,7 +328,7 @@ padding: 0% 30%;
     justify-content: center;
     justify-content: space-evenly;
     text-align: center;
-    margin: 40px;
+    margin: 50px;
 }
 
 #contact_page {
