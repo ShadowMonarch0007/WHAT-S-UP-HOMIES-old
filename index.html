@@ -8,11 +8,13 @@
     <title>WHAT'S UP HOMIES!</title>
     <link rel="website icon" id="web_icon" type="png" href=".\icons\aditya logo solid.png" style="border-radius: 20px;">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 </head>
 
 <body style="color: black;">
     <header>
-        <nav class="navbar">
+        <!-- <nav class="navbar">
             <ul class="navlist">
                 <div class="logo">
                     <img src=".\icons\aditya logo.png" alt="logo" height="75px" width="75px">
@@ -26,6 +28,53 @@
                     <li id="contact_button"><a href="#contact">CONTACT</a></li>
                 </div>
             </ul>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="https://shadowmonarch0007.github.io/WHAT-S-UP-HOMIES-/icons/aditya%20logo.png" alt=""
+                        height="60" width="60"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#about" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#about">About</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#education">Education</a></li>
+                                <li><a class="dropdown-item" href="#hobbies">Hobbies</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#connect">Connect</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -69,19 +118,6 @@
             </a></center>
         </section>
         <section id="about">
-            <!-- <H1 id="main_heading">
-                <center><b>ABOUT</b></center>
-            </H1> -->
-            <!-- <div id="about_nav">
-                <nav class="nav_about">
-                    <ul class="nav_about_list">
-                        <div class="choice">
-                            <li id="education_button"><a href="#education">EDUCATION</a></li>
-                            <li id="hobbies_button"><a href="#hobbies">HOBBIES</a></li>
-                        </div>
-                    </ul>
-                </nav>
-            </div> -->
             <section id="education" class="edu">
                 <div class="edupic">
                     <img class="elg"
@@ -270,6 +306,7 @@
                 <center>Copyright © 2027 - All rights reserved</center>
             </b></section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
