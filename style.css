@@ -114,7 +114,7 @@
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2rem;
     border: none;
     /* background: #efefef; */
     background: transparent;
@@ -125,7 +125,6 @@
 .km:active {
     box-shadow: inset 2px 2px 6px #c8d0e7, inset -2px -2px 6px #fff;
 }
-
 .km h2 {
     font-size: 1.5rem;
     font-weight: 350;
@@ -133,7 +132,7 @@
     align-items: center;
     color: #fff;
     display: flex;
-    margin: 0;
+    margin: 0 1rem;
 }
 .emphasis{
     background: transparent;
@@ -386,6 +385,12 @@
     }
     .dtails p{
         font-size: 1.5rem !important;
+    }
+    .knowmore button.km{
+        margin: 1rem;
+    }
+    .km{
+        box-shadow: 4px 4px 8px #c8d0e7, -2px -2px 6px #fff;
     }
     #about{
         width: 100%;
