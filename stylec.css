@@ -16,7 +16,7 @@ body {
 
 #certificate_quiz {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
     background-position: center;
 }
@@ -28,10 +28,11 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     height: 100%;
-    width: 2
+    width: 22%;
 }
 #bg{
     background: url("./img/bg.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -39,7 +40,10 @@ body {
     /* position: absolute; */
 
 }
-
+.gov_certificate img{
+    height: 20rem;
+    width: 30rem;
+}
 #f1,
 #f2,
 #f3,
@@ -50,20 +54,18 @@ body {
 #f8 {
     display: flex;
     flex-direction: column;
-
-    margin: 5px 5px 9px 15px;
-    height: 205px;
-    width: 290px;
+    /* justify-content: space-around; */
+    margin: 5%;
 }
 
 .heading {
     position: absolute;
     z-index: 6;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.4rem;
     font-weight: 100;
-    margin: 30% 25%;
+    margin: auto 25%;
 }
 
 #sc1,
@@ -86,58 +88,89 @@ body {
     
 }
 .gov_certificate {
-    margin: 4rem 10rem;
+    margin: 3% 12%;
+}
+.gov_certificate img{
+    height: 40rem;
+    width: 57rem;
 }
 
 #c_1 {
     position: absolute;
     z-index: 5;
-    height: 403px;
-    width: 570px;
 }
 
 #c_2 {
     position: absolute;
     z-index: 4;
-    height: 403px;
-    width: 570px;
 }
 
 #c_3 {
     position: absolute;
     z-index: 3;
-    height: 403px;
-    width: 570px;
 }
 
 #c_4 {
     position: absolute;
     z-index: 2;
-    height: 403px;
-    width: 570px;
 }
 
 #c_5 {
     position: absolute;
     z-index: 1;
-    height: 403px;
-    width: 570px;
 }
 #c_6 {
     position: absolute;
     z-index: -1;
-    height: 403px;
-    width: 570px;
 }
 #c_7 {
     position: absolute;
     z-index: -2;
-    height: 403px;
-    width: 570px;
 }
 #c_8 {
     position: absolute;
     z-index: -3;
-    height: 403px;
-    width: 570px;
+}
+@media only screen and (max-width:1400px){
+    #certificate_quiz{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .heading{
+        font-size: 1.3rem !important;
+        width: 30%;
+        margin: auto 18%;
+    }
+    .quiz {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        overflow-y: hidden;
+        overflow-x: auto;
+        height: 25%;
+        width: 100%
+    }
+    .quiz_certificate img{
+        height: 10rem;
+        width: 15rem;
+    }
+    #f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin: 5%; */
+    }
+    #certificate_display{
+        margin-left: 0;
+        margin-top: 75%;
+        width: 100%;
+        height: 75%;
+    }
+    .gov_certificate img{
+        margin-left: -4% !important;
+        height: 15rem;
+        width: 20rem;
+    }
 }
