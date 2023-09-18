@@ -362,7 +362,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0% 5%;
-    padding: 2.5% 0%;
+    padding-top: 2.5%;
 }
 .ft h1{
     font-size: 1.8rem;
@@ -403,7 +403,7 @@ label{
 }
 .form-group-btn{
     width: 100%;
-    margin: 0 20%;
+    margin: 0 19%;
 }
 .form-btn{
     height: 2.5rem ;
@@ -411,8 +411,9 @@ label{
     border-radius: 6rem;
     box-shadow: 5px 5px 15px -3px #c8d0e7;
     background: transparent;
+    /* border: none; */
     color: #ffffff;
-    /* margin: 0 10%; */
+    margin: 0 0.5%;
 }
 .links{
     width: 20%;
@@ -458,6 +459,16 @@ label{
     color: #bbbbbb;
     text-align: center;
     margin-left: 5%;
+}
+.cr{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2.5%;
+}
+.cr h3{
+    color: #fff;
+    font-size: 1.5rem;
 }
 @media only screen and (max-width:1400px) {
     *{
@@ -614,7 +625,7 @@ label{
         background-color: #e91e63;
         height: 0.1rem;
         /* box-sizing: border-box; */
-        width: 50px;
+        width: 75px;
     }
     .ft ul li a{
         font-size: 1rem;
@@ -630,6 +641,7 @@ label{
         height: 2rem;
         width: 40%;
         /* margin-left: 5%; */
+        /* border: none; */
         font-size: 1.1rem !important;
         margin: 10% 2.5% 10% 2.5%;
     }
@@ -651,5 +663,11 @@ label{
     .follow h2{
         margin: 2.5% 0;
         font-size: 1rem;
+    }
+    .cr{
+        padding-top: 10%;
+    }
+    .cr h3{
+        font-size: 0.75rem;
     }
 }
