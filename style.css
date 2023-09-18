@@ -627,10 +627,10 @@ label{
         width: auto;
     }
     .form-btn{
-        height: 2.5rem;
+        height: 2rem;
         width: 40%;
         /* margin-left: 5%; */
-        font-size: 1.5rem !important;
+        font-size: 1.1rem !important;
         margin: 10% 2.5% 10% 2.5%;
     }
     .links{
