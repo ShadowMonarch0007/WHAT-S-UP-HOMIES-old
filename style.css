@@ -616,7 +616,7 @@ label{
         font-size: 2rem !important;
     }
     .ft h1{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .ft h1::before{
         /* content: none; */
