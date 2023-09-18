@@ -366,7 +366,7 @@ footer{
     padding-top: 2.5%;
 }
 .ft h1{
-    font-size: 3rem;
+    font-size: 2.4rem;
 	color: #ffffff;
 	text-transform: capitalize;
 	margin-bottom: 2.5rem;
@@ -381,7 +381,7 @@ footer{
 	background-color: #e91e63;
 	height: 0.1rem;
 	box-sizing: border-box;
-	width: 30%;
+	width: 25%;
 }
 .contact{
     width: 25%;
@@ -616,7 +616,7 @@ label{
         font-size: 2rem !important;
     }
     .ft h1{
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         overflow: hidden;
     }
     .ft h1::before{
@@ -627,7 +627,7 @@ label{
         background-color: #e91e63;
         height: 0.1rem;
         /* box-sizing: border-box; */
-        width: 4rem;
+        width: 3rem;
     }
     .ft ul li a{
         font-size: 1rem;
