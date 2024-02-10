@@ -293,6 +293,10 @@
     box-shadow: rgb(147, 169, 192) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     margin: 2%;
 }
+.skill_content a{
+    text-decoration: none;
+    color: #000;
+}
 .skill_content:hover{
     box-shadow: rgb(204, 219, 232) 0px 20px 30px -10px;
 }
